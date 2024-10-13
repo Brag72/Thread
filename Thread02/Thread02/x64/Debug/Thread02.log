@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\bRaG\Desktop\Домашнее задание С++\Thread_cpp\Thread02\Thread02\Source.cpp(24,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Thread02.vcxproj -> C:\Users\bRaG\Desktop\Домашнее задание С++\Thread_cpp\Thread02\x64\Debug\Thread02.exe
