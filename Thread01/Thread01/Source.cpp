@@ -14,7 +14,7 @@ void client()
 {
 	while (queue < max_client)
 	{
-		this_thread::sleep_for(1s);
+		this_thread::sleep_for(0.1ms);
 		++queue;
 		cout << "Обнаружен новый клиент! Клиентов в очереди: " << queue << endl;
 	}
@@ -25,7 +25,7 @@ void oper()
 {
 	while (!is_done || queue > 0)
 	{
-		this_thread::sleep_for(2s);
+		this_thread::sleep_for(1ms);
 
 		if (queue == 0)
 		{
