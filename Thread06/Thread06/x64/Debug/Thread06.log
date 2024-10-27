@@ -1,0 +1,30 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,98): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  (компиляция исходного файла "Source.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,98):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\bRaG\Desktop\Домашнее задание С++\Thread_cpp\Thread\Thread06\Thread06\Source.cpp(26,17):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "std::future<int> std::async<int(__cdecl &)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int&,unsigned __int64>(std::launch,_Fty,std::reference_wrapper<std::vector<int,std::allocator<int>>> &&,int &,unsigned __int64 &&)"
+          with
+          [
+              _Fty=int (__cdecl &)(std::vector<int,std::allocator<int>> &,int,int)
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1449,96):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Fake_no_copy_callable_adapter<int (__cdecl &)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int &,unsigned __int64>"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1422,10):
+  	во время компиляции функции-члена класс шаблон "int std::_Fake_no_copy_callable_adapter<int (__cdecl &)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int &,unsigned __int64>::operator ()(void)"
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1731,5):
+  		см. первую ссылку на "std::_Fake_no_copy_callable_adapter<int (__cdecl &)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int &,unsigned __int64>::operator ()" в "std::invoke"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1423,16):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "int std::_Invoke_stored<int(__cdecl *)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int,unsigned __int64>(std::tuple<int (__cdecl *)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int,unsigned __int64> &&)"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1396,12):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "int std::_Invoke_stored_explicit<int(__cdecl *)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int,unsigned __int64,0,1,2,3>(std::tuple<int (__cdecl *)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int,unsigned __int64> &&,std::integer_sequence<size_t,0,1,2,3>)"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1390,17):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "int std::invoke<int(__cdecl *)(std::vector<int,std::allocator<int>> &,int,int),std::reference_wrapper<std::vector<int,std::allocator<int>>>,int,unsigned __int64>(_Callable &&,_Ty1 &&,int &&,unsigned __int64 &&) noexcept(false)"
+          with
+          [
+              _Callable=int (__cdecl *)(std::vector<int,std::allocator<int>> &,int,int),
+              _Ty1=std::reference_wrapper<std::vector<int,std::allocator<int>>>
+          ]
+  
+  Thread06.vcxproj -> C:\Users\bRaG\Desktop\Домашнее задание С++\Thread_cpp\Thread\Thread06\x64\Debug\Thread06.exe
